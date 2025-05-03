@@ -39,3 +39,7 @@ This setup assumes your AWS CLI is configured with valid credentials (aws config
 The EC2 instance is expected to run a Next.js application on port 3000.
 A .env.local file must be manually uploaded to the EC2 instance after provisioning.
 The setup.sh script is not used in this deployment and has been excluded.
+
+
+## Work Flow
+Multiple team members git cloned the main repo onto their local machines and worked iteratively in the process of constructing the terraform scripts and building the Docker image for the application
